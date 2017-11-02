@@ -7,14 +7,32 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   </head>
   <body>
+  
+  <div class="w3-container">
   <h1>Sarin gas: a deadly nerve agent</h1>
   <div id="compound"></div>
   <p><i>Click on purple dots for details</i></p>
-  <div class="compound">
-    <img src="./assets/img/sarinCompound-01.svg">
-    <div class="purpleDot" id="purple1">
-	  <a href="#body"><img src="./assets/img/purpleDot.svg"></a>
+ 
+ <div class="compound">
+ 
+ <img src="./assets/img/purpleDot.svg" width="50px" onclick="document.getElementById('id01').style.display='block'" class="purpleDot" id="purple1">
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Originally developed
+as a pesticide during
+the 1930s Nazi regime
+in Germany</p>
+      </div>
     </div>
+  </div>
+ 
+   <img src="./assets/img/sarinCompound-01.svg">
+    <!--<div class="purpleDot" id="purple1">
+	  <a href="#body"><img src="./assets/img/purpleDot.svg"></a>
+    </div>-->
 	<div class="purpleDot" id="purple2">
       <a href="#body"><img src="./assets/img/purpleDot.svg"></a>
     </div>
@@ -59,6 +77,7 @@
     <div class="orangeDot" id="orange8">
       <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
     </div> 	
+  </div>
   </div>
   </body>
 </html>

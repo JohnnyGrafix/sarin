@@ -12,6 +12,10 @@ div {
 	position: absolute;
 	width: 6%;
 }
+.purpleDot:hover {
+	cursor: pointer;
+	width: 7%;
+}
 #purple1 {
 	top: 15.2%;
 	left: 78%;
