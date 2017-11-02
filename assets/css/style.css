@@ -5,39 +5,70 @@ body {
 div {
 	border: 0.5px solid yellow;
 }
-.compound {
+.compound, .body {
 	position: relative;
 }
 .purpleDot {
+	position: absolute;
 	width: 6%;
 }
 #purple1 {
-	position: absolute;
-	top: 15%;
+	top: 15.2%;
 	left: 78%;
 }
 #purple2 {
-	position: absolute;
-	top: 40.5%;
+	top: 40.7%;
 	left: 48.5%;
 }
 #purple3 {
-	position: absolute;
-	top: 42%;
+	top: 42.2%;
 	left: 88.5%;
 }
 #purple4 {
-	position: absolute;
-	top: 53.5%;
+	top: 53.7%;
 	left: 63.5%;
 }
 #purple5 {
-	position: absolute;
-	top: 80%;
+	top: 80.2%;
 	left: 50.5%;
 }
 #purple6 {
-	position: absolute;
-	top: 82%;
+	top: 82.2%;
 	left: 23%;
+}
+.orangeDot {
+	width: 6%;
+	position: absolute;
+}
+#orange1 {
+	top: 11%;
+	left: 50%;
+}
+#orange2 {
+	top: 17%;
+	left:46%;
+}
+#orange3 {
+	top: 25%;
+	left: 48.5%;
+}
+#orange4 {
+	top: 35%;
+	left: 48.5%;
+}
+#orange5 {
+	top: 40%;
+	left: 55%;
+}
+#orange6 {
+	top: 48%;
+	left: 37%;
+}
+#orange7 {
+	top: 62%;
+	left: 48.5%;
+}
+#orange8 {
+	top: 82%;
+	left: 48.5%;
 }
