@@ -31,7 +31,16 @@ div {
 	cursor: pointer;
 	width: 7%;
 }
-
+#close {
+	background-color:#ffd64f;
+	border: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+.w3-modal-content {
+	padding-top: 50px;
+}
 #purple1 {
 	top: 15.2%;
 	left: 78%;
