@@ -1,5 +1,43 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	color: red;
+	color: purple;
 }
-
+div {
+	border: 0.5px solid yellow;
+}
+.compound {
+	position: relative;
+}
+.purpleDot {
+	width: 6%;
+}
+#purple1 {
+	position: absolute;
+	top: 15%;
+	left: 78%;
+}
+#purple2 {
+	position: absolute;
+	top: 40.5%;
+	left: 48.5%;
+}
+#purple3 {
+	position: absolute;
+	top: 42%;
+	left: 88.5%;
+}
+#purple4 {
+	position: absolute;
+	top: 53.5%;
+	left: 63.5%;
+}
+#purple5 {
+	position: absolute;
+	top: 80%;
+	left: 50.5%;
+}
+#purple6 {
+	position: absolute;
+	top: 82%;
+	left: 23%;
+}
