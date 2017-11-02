@@ -2,7 +2,15 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: purple;
 }
-
+#staytop {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	z-index: 5;
+}
+#clickdots {
+	padding-top: 100px;
+}
 h1 {
 	font-size: 3rem;
 }
@@ -20,6 +28,7 @@ p {
 div {
 	border: 0.5px solid yellow;
 }
+
 .compound, .body {
 	position: relative;
 }
@@ -72,6 +81,9 @@ div {
 .orangeDot:hover {
 	cursor: pointer;
 	width: 7%;
+}
+.body p {
+	color: orange;
 }
 #orange1 {
 	top: 11%;

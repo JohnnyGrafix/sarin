@@ -8,10 +8,10 @@
   </head>
   <body>
   
-  <div class="w3-container">
-  <h1>Sarin gas: a deadly nerve agent</h1>
+  <div class="w3-container" id="allContent">
+  <h1 id="staytop">Sarin gas: a deadly nerve agent</h1>
   <div id="compound"></div>
-  <p><i>Click on purple dots for details</i></p>
+  <p id="clickdots"><i>Click on coloured dots for details</i></p>
  
  <div class="compound">
  
@@ -95,30 +95,92 @@ and former Soviet Union</p>
   <div id="body"></div>
   <div class="body">
     <img src="./assets/img/body-01.svg">
-    <div class="orangeDot" id="orange1">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+    
+	<img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id07').style.display='block'" class="purpleDot" id="orange1">
+  <div id="id07" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Violent headaches</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange2">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+  </div>
+	
+	<img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id08').style.display='block'" class="purpleDot" id="orange2">
+  <div id="id08" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Blurred or tunnel vision</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange3">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+  </div>
+  
+  <img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id09').style.display='block'" class="purpleDot" id="orange3">
+  <div id="id09" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id09').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Drooling</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange4">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+  </div>
+  
+  <img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id10').style.display='block'" class="purpleDot" id="orange4">
+  <div id="id10" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id10').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Convulsions</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange5">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+  </div>
+  
+  <img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id11').style.display='block'" class="purpleDot" id="orange5">
+  <div id="id11" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id11').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Can paralyse muscles
+around lungs, causes
+body to flood with 
+secretions, as lungs
+fill with mucus 
+and saliva</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange6">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+  </div>
+  
+  <img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id12').style.display='block'" class="purpleDot" id="orange6">
+  <div id="id12" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id12').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Excessive sweating</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange7">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
+  </div>
+  
+  <img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id13').style.display='block'" class="purpleDot" id="orange7">
+  <div id="id13" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id13').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Nausea</p>
+      </div>
     </div>
-    <div class="orangeDot" id="orange8">
-      <a href="#compound"><img src="./assets/img/orangeDot.svg"></a>
-    </div> 	
+  </div>
+  
+  <img src="./assets/img/orangeDot.svg" width="50px" onclick="document.getElementById('id14').style.display='block'" class="purpleDot" id="orange8">
+  <div id="id14" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id14').style.display='none'" class="w3-button w3-display-topright"><button id="close">CLOSE ME</button></span>
+        <p>Urination and diarrhea</p>
+      </div>
+    </div>
+  </div>
+  
   </div>
   </div>
   </body>
